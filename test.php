@@ -18,12 +18,13 @@
     // $data = $rq->fetchAll(PDO::FETCH_ASSOC);
     // $rq->closeCursor();
     // var_dump($data);
+    //
+    // $cmd = "echo 'hello world!';";
+    // eval($cmd);
 
-    $tab = ['a','b','c'];
-    foreach ($tab as $one) {
-        if($one == 'a')
-            $cmd = $one;
+
+    try{
+        $a = 'a';
     }
-    var_dump($cmd);
 
  ?>
